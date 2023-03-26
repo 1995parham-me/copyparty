@@ -1,3 +1,3 @@
-# Copyparty in Action
+# [Copyparty](https://github.com/9001/copyparty) in Action
 
-copyparty is an awesome file server
+[copyparty](https://github.com/9001/copyparty) is an awesome file server
