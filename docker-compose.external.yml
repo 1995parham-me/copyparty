@@ -5,5 +5,5 @@ services:
     extends:
       file: docker-compose.yml
       service: copyparty
-      volumes:
-        - /media/parham-main/parham/books:/w/books:ro
+    volumes:
+      - /media/parham-main/parham/books:/w/books:ro
