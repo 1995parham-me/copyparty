@@ -8,4 +8,4 @@ services:
     volumes:
       - ./cfg:/cfg:ro
       - ./data:/w
-    image: ghcr.io/9001/copyparty-ac
+    image: ghcr.io/9001/copyparty-dj
