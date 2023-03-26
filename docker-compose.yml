@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  copyparty:
+    user: "1000"
+    ports:
+      - 3923:3923
+    volumes:
+      - ./cfg:/cfg:ro
+      - ./data:/w
+    image: ghcr.io/9001/copyparty-ac
