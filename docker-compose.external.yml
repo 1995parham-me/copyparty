@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  copypartry:
+    extends:
+      file: docker-compose.yml
+      service: copyparty
+      volumes:
+        - /media/parham-main/parham/books:/w/books:ro
