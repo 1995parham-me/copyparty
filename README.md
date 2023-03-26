@@ -16,8 +16,22 @@ You can share the `./data` folder easily by running:
 docker compose up
 ```
 
-Also, you can share the `books` folder from `/media/parham-main/parham` by:
+You can share the following folders from _parham-main_ disk:
+
+- `books` folder from `/media/parham-main/parham/books`
+
+by use the following `docker compose`:
 
 ```bash
-docker compose -f docker-compose.external.yml up
+docker compose -f docker-compose.main.yml up
+```
+
+You can share the following folders from _parham-secret_ disk:
+
+- `parham` folder from `/media/parham-secret/parham`
+
+by use the following `docker compose`:
+
+```bash
+docker compose -f docker-compose.secret.yml up
 ```
