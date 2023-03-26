@@ -7,5 +7,6 @@ services:
       - 3923:3923
     volumes:
       - ./cfg:/cfg:ro
+      - ./cache:/cache
       - ./data:/w
     image: ghcr.io/9001/copyparty-ac
