@@ -7,3 +7,17 @@
 > Portable file server with accelerated resumable uploads, dedup, WebDAV, FTP, zeroconf, media indexer, thumbnails++ all in one file, no deps
 
 Here I provided configuration and a docker-compose to run it whenever and wherever I need it.
+
+## Up and Running
+
+You can share the `./data` folder easily by running:
+
+```bash
+docker compose up
+```
+
+Also, you can share the `books` folder from `/media/parham-main/parham` by:
+
+```bash
+docker compose -f docker-compose.external.yml up
+```
