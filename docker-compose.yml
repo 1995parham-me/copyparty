@@ -8,4 +8,5 @@ services:
     volumes:
       - ./cfg:/cfg:ro
       - ./data:/w
+      - /media/parham-main/parham/books:/w/books:ro
     image: ghcr.io/9001/copyparty-ac
