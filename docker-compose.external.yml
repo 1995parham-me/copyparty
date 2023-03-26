@@ -6,4 +6,9 @@ services:
       file: docker-compose.yml
       service: copyparty
     volumes:
-      - /media/parham-main/parham/books:/w/books:ro
+      - type: bind
+        source: /media/parham-main/parham/books
+        target: /w/books
+        read_only: true
+        bind:
+          create_host_path: false
