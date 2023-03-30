@@ -6,8 +6,9 @@
 
 > Portable file server with accelerated resumable uploads, dedup, WebDAV, FTP, zeroconf, media indexer, thumbnails++ all in one file, no deps
 
-Here I provided configuration and a docker-compose to run it whenever and wherever I need it.
+Here I provided configuration and a `docker-compose` to run it whenever and wherever I need it.
 Please note that you must use your password as username to login.
+Copyparty by default only supports WebDav and its HTTP dashboard, so using it you don't have access based on SMB, etc.
 
 ## Up and Running
 
